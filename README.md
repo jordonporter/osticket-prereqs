@@ -208,7 +208,7 @@ Right-click anywhere under the database filter and click on "Create a new databa
 ![image](https://github.com/jordonporter/osticket-prereqs/assets/144548453/a8d719c6-3485-464a-8ad9-85e23ae77ff1)
 
 
-<h3>Step 18: Continue Setting up osticket in the browser</h3>
+<h3>Step 18: Continue Setting up osTicket in the browser</h3>
 In the osTicket browser, enter the MySQL database information (named "osTicket"), MySQL Username (set as "root" at the beginning of the lab), and the password you created.
 Click "Install Now," and osTicket should now be successfully installed.
 </p>
