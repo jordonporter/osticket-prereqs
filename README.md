@@ -201,7 +201,7 @@ Click "Install Now," and osTicket should now be successfully installed.
 </p>
 <br />
 
-<h3>Step 17: Create a osTicket Database</h3>
+<h3>Step 17: Create an osTicket Database</h3>
 Right-click anywhere under the database filter and click on "Create a new database" and name it "osTicket."
 </p>
 
