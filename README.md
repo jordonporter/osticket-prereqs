@@ -29,7 +29,7 @@ https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 
 
 <h3>Step 1: Creating a Virtual machine</h3>
-To begin, our first task is to set up a Virtual Machine (VM) through the Microsoft Azure portal. 
+• To begin, our first task is to set up a Virtual Machine (VM) through the Microsoft Azure portal. 
 A VM acts as a remote computer, and we use it to safeguard our physical 
 machine from potential issues. Start by creating a resource group, and for simplicity, let's name it "osTicket."
 </p>
@@ -41,7 +41,7 @@ machine from potential issues. Start by creating a resource group, and for simpl
 <br />
 
 
-Next, simply connect to your newly created VM using RDP using the public IPv4 address. 
+• Next, simply connect to your newly created VM using RDP using the public IPv4 address. 
 If you are a Mac user you will have to download Microsoft RDP.
 </p>
 <br />
@@ -52,15 +52,15 @@ If you are a Mac user you will have to download Microsoft RDP.
 <br />
 
 <h3>Step 2: Enable IIS on Windowss</h3>
-Navigate to the "Control Panel" and then select "Programs" followed by "Programs and Features."
+• Navigate to the "Control Panel" and then select "Programs" followed by "Programs and Features."
 Choose "Turn Windows features on or off" on the left side.
-In the pop-up window, check the box for "Internet Information Services." 
+• In the pop-up window, check the box for "Internet Information Services." 
 </p>
-Check the box for Web Management Tools -> IIS Management Console -> IIS Management Console
+• Check the box for Web Management Tools -> IIS Management Console -> IIS Management Console
 </p>
-Check the box for World Wide Web Services -> Application Development Features -> CGI
+• Check the box for World Wide Web Services -> Application Development Features -> CGI
 </p>
-Check the box for "Common HTTP Features"
+• Check the box for "Common HTTP Features"
 </p>
 <br />
 
@@ -71,7 +71,7 @@ Check the box for "Common HTTP Features"
 <br />
 
 <h3>Step 3: Install the PHP Manager for IIS</h3>
-From the Installation Files, download and install the PHP Manager installer from the downloads link (PHPManagerForIIS_V1.5.0.msi)
+• From the Installation Files, download and install the PHP Manager installer from the downloads link (PHPManagerForIIS_V1.5.0.msi)
 </p>
 
 ![Installing PHP manager](https://github.com/jordonporter/osticket-prereqs/assets/144548453/503037bc-77f4-40e4-9a60-9d18697b67b7)
@@ -79,7 +79,7 @@ From the Installation Files, download and install the PHP Manager installer from
 <br />
 
 <h3>Step 4: Install the Rewrite Module </h3>
-From the Installation Files, download and install the PHP Manager installer from the downloads link (rewrite_amd64_en-US.msi)
+• From the Installation Files, download and install the PHP Manager installer from the downloads link (rewrite_amd64_en-US.msi)
 </p>
 
 ![Installing rewrite module](https://github.com/jordonporter/osticket-prereqs/assets/144548453/a7835b19-f10b-4940-af3a-9b4f5027516c)
@@ -88,7 +88,7 @@ From the Installation Files, download and install the PHP Manager installer from
 
 
 <h3>Step 5: Create C:\PHP directory and download PHP 7.3.8</h3>
-locate your VM's C: Drive and create a new folder "PHP". Then from the installation files, download PHP 7.3.8
+• Locate your VM's C: Drive and create a new folder "PHP". Then from the installation files, download PHP 7.3.8
 (php-7.3.8-nts-Win32-VC15-x86.zip) and extract the contents into the PHP directory folder you just created.
 </p>
 
@@ -98,9 +98,9 @@ locate your VM's C: Drive and create a new folder "PHP". Then from the installat
 <br />
 
 <h3>Step 8: Install MySQL 5.5.62</h3>
-From the Installation Files, download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
+• From the Installation Files, download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
 </p>
-Typical Setup -> Launch Configuration Wizard (after install) -> Standard Configuration -> Password1 (create a password)
+• Typical Setup -> Launch Configuration Wizard (after install) -> Standard Configuration -> Password1 (create a password)
 </p>
 
 ![MYSQL Standard config](https://github.com/jordonporter/osticket-prereqs/assets/144548453/5a1f62ef-c3fa-4e44-a644-21291f3da3ad)
@@ -111,7 +111,7 @@ Typical Setup -> Launch Configuration Wizard (after install) -> Standard Configu
 <br />
 
 <h3>Step 9: Register PHP from within IIS</h3>
-Open IIS as an Admin and double click on PHP Manager. Then click "Register new PHP version" and locate the PHP folder you created on your 
+• Open IIS as an Admin and double click on PHP Manager. Then click "Register new PHP version" and locate the PHP folder you created on your 
 C: Drive, select "php-cgi", then click open and OK.
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -120,7 +120,7 @@ C: Drive, select "php-cgi", then click open and OK.
 <br />
 
 <h3>Step 10: Reload IIS</h3>
-Click on the name of the server on the left and click "restart" on the top right. 
+• Click on the name of the server on the left and click "restart" on the top right. 
 </p>
 
 ![image](https://github.com/jordonporter/osticket-prereqs/assets/144548453/9531ecd8-4b20-4fb6-a4c8-aadcf3ea452d)
@@ -128,10 +128,10 @@ Click on the name of the server on the left and click "restart" on the top right
 <br />
 
 <h3>Step 11: Install osTicket v1.15.8</h3>
-Click the link within the lab files to download osTicket.
-Once downloaded to your "Downloads" folder, right-click the folder and choose "Extract All" to create another folder.
-Inside the "Downloads" folder, open the osTicket folder.
-Copy the "upload" folder.
+• Click the link within the lab files to download osTicket.
+ Once downloaded to your "Downloads" folder, right-click the folder and choose "Extract All" to create another folder.
+ Inside the "Downloads" folder, open the osTicket folder.
+ Copy the "upload" folder.
 Navigate to "This PC," "Windows (C:)," "inetpub," and "wwwroot," then paste the "upload" folder here.
 Rename the "upload" folder to "osTicket."
 </p>
@@ -142,7 +142,7 @@ Rename the "upload" folder to "osTicket."
 <br />
 
 <h3>Step 12: Reload IIS</h3>
-Open IIS by searching for it in the Start menu.
+• Open IIS by searching for it in the Start menu.
 On the right side, click "Restart."
 On the left side, click "Sites," "Default Web Site," "osTicket," then on the right side, click "Browse *:80" to open a web browser to osTicket.
 
@@ -153,7 +153,7 @@ On the left side, click "Sites," "Default Web Site," "osTicket," then on the rig
 <br />
 
 <h3>Step 13: Enable Extensions in IIS</h3>
-Open IIS Manager again.
+• Open IIS Manager again.
 Navigate to "Sites," "Default," "osTicket."
 Double-click on "PHP Manager" and then click "Enable or Disable an Extension."
 Enable the following extensions: "php_imap.dll," "php_intl.dll," and "php_opcache.dll."
@@ -165,7 +165,7 @@ Refresh the osTicket site in your browser.
 <br />
 
 <h3>Step 14: Rename ost-config.php</h3>
-In File Explorer, go back to the osTicket folder.
+• In File Explorer, go back to the osTicket folder.
 Click on the "Include" folder.
 Rename "ost-sampleconfig.php" to "ost-config.php." Be precise to avoid errors.
 </p>
@@ -175,7 +175,7 @@ Rename "ost-sampleconfig.php" to "ost-config.php." Be precise to avoid errors.
 <br />
 
 <h3>Step 15: Assign Permissions to ost-config.php</h3>
-Right-click on ost-config.php and go to "Properties."
+• Right-click on ost-config.php and go to "Properties."
 Navigate to "Security," "Advanced," and then "Disable Inheritance."
 Click "Add" to add custom permissions.
 Click "Select Principal," type in "Everyone," and then click "Check Names" and "Ok."
@@ -188,7 +188,7 @@ Allow "Full Control."
 <br />
 
 <h3>Step 16: Download and Install HeidiSQL</h3>
-Download HeidiSQL from the provided installation files.
+• Download HeidiSQL from the provided installation files.
 Open the downloaded file from your "Downloads" folder and complete the installation.
 In HeidiSQL, click "New," enter the MySQL password you created at the beginning of this lab, and open the connection.
 Create a new database called "osTicket."
@@ -202,14 +202,14 @@ Click "Install Now," and osTicket should now be successfully installed.
 <br />
 
 <h3>Step 17: Create an osTicket Database</h3>
-Right-click anywhere under the database filter and click on "Create a new database" and name it "osTicket."
+• Right-click anywhere under the database filter and click on "Create a new database" and name it "osTicket."
 </p>
 
 ![image](https://github.com/jordonporter/osticket-prereqs/assets/144548453/a8d719c6-3485-464a-8ad9-85e23ae77ff1)
 
 
 <h3>Step 18: Continue Setting up osTicket in the browser</h3>
-In the osTicket browser, enter the MySQL database information (named "osTicket"), MySQL Username (set as "root" at the beginning of the lab), and the password you created.
+• In the osTicket browser, enter the MySQL database information (named "osTicket"), MySQL Username (set as "root" at the beginning of the lab), and the password you created.
 Click "Install Now," and osTicket should now be successfully installed.
 </p>
 
