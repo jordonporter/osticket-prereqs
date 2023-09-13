@@ -36,7 +36,6 @@ machine from potential issues. Start by creating a resource group, and for simpl
 <br />
 
 ![VM creation](https://github.com/jordonporter/osticket-prereqs/assets/144548453/7fffa98c-070b-40d0-bc59-79f054d27a71)
-![Capture](https://github.com/jordonporter/osticket-prereqs/assets/144548453/58e0983c-dfc2-4da3-b111-e8ede1b2bca9)
 </p>
 <br />
 
