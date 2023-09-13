@@ -36,7 +36,7 @@ machine from potential issues. Start by creating a resource group, and for simpl
 <br />
 
 ![VM creation](https://github.com/jordonporter/osticket-prereqs/assets/144548453/7fffa98c-070b-40d0-bc59-79f054d27a71)
-![osticket VM settings ](https://github.com/jordonporter/osticket-prereqs/assets/144548453/87027a91-e8c0-41cd-aeb7-96b805adfc93)
+![Capture](https://github.com/jordonporter/osticket-prereqs/assets/144548453/58e0983c-dfc2-4da3-b111-e8ede1b2bca9)
 </p>
 <br />
 
@@ -47,7 +47,7 @@ If you are a Mac user you will have to download Microsoft RDP.
 <br />
 
 ![remote desktop sign in](https://github.com/jordonporter/osticket-prereqs/assets/144548453/ebaf5920-f808-47a5-8060-8e7ca4343ebd)
-![remote dewsktop sign in pt2](https://github.com/jordonporter/osticket-prereqs/assets/144548453/f01642c1-a3d6-4188-acdd-525397ae5478)
+![userlab](https://github.com/jordonporter/osticket-prereqs/assets/144548453/c03d28ec-fe07-4b50-bda3-b4f87555fbd0)
 </p>
 <br />
 
