@@ -111,10 +111,11 @@ Choose "Turn Windows features on or off" on the left side.
 <br />
 
 <h3>Step 9: Register PHP from within IIS</h3>
-• Open IIS as an Admin and double click on PHP Manager. Then click "Register new PHP version" and locate the PHP folder you created on your 
+• Open IIS as an Admin and double-click on PHP Manager. Then click "Register new PHP version" and locate the PHP folder you created on your 
 C: Drive, select "php-cgi", then click open and OK.
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+![phpcgi](https://github.com/jordonporter/osticket-prereqs/assets/144548453/a6114e2e-f23d-422e-8e26-14e660581dec)
 </p>
 </p>
 <br />
