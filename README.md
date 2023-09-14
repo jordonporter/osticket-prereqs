@@ -216,7 +216,7 @@ Click "Install Now," and osTicket should now be successfully installed.
 ![image](https://github.com/jordonporter/osticket-prereqs/assets/144548453/b1d592d7-99ad-4d9f-98fa-34a69e73861b)
 ![image](https://github.com/jordonporter/osticket-prereqs/assets/144548453/2e0f4d2e-5a58-4986-9850-84a4bfcb8279)
 
-<h2> That completes the pre configuration of osTicket! </h2>
+<h2> That completes the prerequisites and installation of osTicket! </h2>
 
 
 
