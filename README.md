@@ -45,12 +45,12 @@ If you are a Mac user you will have to download Microsoft RDP.
 </p>
 <br />
 
-![remote desktop sign in](https://github.com/jordonporter/osticket-prereqs/assets/144548453/ebaf5920-f808-47a5-8060-8e7ca4343ebd)
+![remote desktop sign-in](https://github.com/jordonporter/osticket-prereqs/assets/144548453/ebaf5920-f808-47a5-8060-8e7ca4343ebd)
 ![userlab](https://github.com/jordonporter/osticket-prereqs/assets/144548453/c03d28ec-fe07-4b50-bda3-b4f87555fbd0)
 </p>
 <br />
 
-<h3>Step 2: Enable IIS on Windowss</h3>
+<h3>Step 2: Enable IIS on Windows </h3>
 • Navigate to the "Control Panel" and then select "Programs" followed by "Programs and Features."
 Choose "Turn Windows features on or off" on the left side.
 • In the pop-up window, check the box for "Internet Information Services." 
@@ -183,7 +183,7 @@ Allow "Full Control."
 </p>
 
 ![image](https://github.com/jordonporter/osticket-prereqs/assets/144548453/335d91a3-1d57-4e13-8d7c-4bea3bc90a98)
-![giving ost-config permisions 2](https://github.com/jordonporter/osticket-prereqs/assets/144548453/4b7661f6-4030-4aef-819e-c20daf015705)
+![giving ost-config permissions 2](https://github.com/jordonporter/osticket-prereqs/assets/144548453/4b7661f6-4030-4aef-819e-c20daf015705)
 </p>
 <br />
 
@@ -202,7 +202,7 @@ Click "Install Now," and osTicket should now be successfully installed.
 <br />
 
 <h3>Step 17: Create an osTicket Database</h3>
-• Right-click anywhere under the database filter and click on "Create a new database" and name it "osTicket."
+• Right-click anywhere under the database filter, click on "Create a new database" and name it "osTicket."
 </p>
 
 ![image](https://github.com/jordonporter/osticket-prereqs/assets/144548453/a8d719c6-3485-464a-8ad9-85e23ae77ff1)
